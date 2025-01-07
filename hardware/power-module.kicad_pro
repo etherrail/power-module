@@ -497,7 +497,9 @@
       "/TRACK POWER ENABLED B": "Track Power",
       "Net-(CN1-Pad1)": "Track Power",
       "Net-(D1-A)": "Relay Power",
-      "Net-(D2-A)": "Relay Power"
+      "Net-(D2-A)": "Relay Power",
+      "Net-(J2-Pin_2)": "PoE Power",
+      "Net-(J3-Pin_1)": "PoE Power"
     },
     "netclass_patterns": []
   },
@@ -507,8 +509,8 @@
       "idf": "",
       "netlist": "../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "power-module.step",
+      "vrml": "power-module.wrl"
     },
     "page_layout_descr_file": ""
   },
